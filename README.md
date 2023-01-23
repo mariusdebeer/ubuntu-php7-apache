@@ -7,6 +7,7 @@ the homepage a phpInfo() page"
 In hindsight, I could probably replace this (step 9 & 10):<br>
 ```
 COPY index.php /var/www/html
+RUN chmod 0644 /var/www/html/index.php
 ```
 
 with something like this:
