@@ -8,6 +8,6 @@ COPY index.php /var/www/html
   with this:<br>
 ```  
 RUN touch /var/www/html/index.php && echo '<?php phpinfo(); ?>' > /var/www/html/index.php
-```
+
 <br>
 as it will have the same result.
