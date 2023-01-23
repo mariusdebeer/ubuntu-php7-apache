@@ -6,7 +6,7 @@ COPY index.php /var/www/html
 ```
 <br>
   with this:<br>
-```  
+```
 RUN touch /var/www/html/index.php && echo '<?php phpinfo(); ?>' > /var/www/html/index.php
 ```
 <br>
